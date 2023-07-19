@@ -1,0 +1,158 @@
+.landing-page {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.hero {
+  position: relative;
+  height: 600px;
+  overflow: hidden;
+  z-index: 10010;
+  
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.hero-text p {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.btn1 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #333;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn1:hover {
+  background-color: #333;
+  color: #fff;
+  transition: background-color 0.3s ease;
+  }
+  
+ 
+  
+  .featured-products {
+  padding: 50px 0;
+  text-align: center;
+  }
+  
+  .featured-products h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  }
+  
+  .product-container {
+  display: flex;
+  justify-content: center;
+  }
+  
+  .product {
+  margin: 0 20px;
+  text-align: center;
+  }
+  
+  .product img {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+  }
+  
+  .product h3 {
+  font-size: 24px;
+  margin: 0;
+  }
+  
+  .product p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  }
+  
+  .newsletter {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+  text-align: center;
+  }
+  
+  .newsletter-text h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  }
+  
+  .newsletter-text p {
+  font-size: 24px;
+  margin-bottom: 40px;
+  }
+  
+  .newsletter-form {
+  display: flex;
+  justify-content: center;
+  }
+  
+  .newsletter-form input[type=email] {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  margin-right: 10px;
+  }
+  
+  .newsletter-form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  }
+  
+  .newsletter-form button:hover {
+  background-color: #555;
+  cursor: pointer;
+  }
+  
+  .about-us {
+  padding: 50px 0;
+  text-align: center;
+  }
+  
+  .about-us h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  }
+  
+  .about-us-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .about-us img {
+  width: 50%;
+  margin-right: 40px;
+  }
+  
+  .about-us p {
+  font-size: 20px;
+  margin: 0;
+  max-width: 50%;
+  text-align: justify;
+  }

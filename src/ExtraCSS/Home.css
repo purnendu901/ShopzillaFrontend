@@ -1,0 +1,15 @@
+.home-container {
+    position: relative;
+    padding-top: 80px;
+}
+
+#homeproduct {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+#homeproduct.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
